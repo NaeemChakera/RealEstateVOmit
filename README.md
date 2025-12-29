@@ -34,22 +34,17 @@ RealEstateVOmit is a real estate data scraping and exploration project focused o
 
 ## What I Implemented
 
-- Defined scraping logic for one or more real estate listing pages, including:
-  - Selecting listing cards and extracting fields (title, price, location, link, etc.).[web:46]
-  - Following pagination links or page parameters to walk through multiple result pages.[web:46]
-- Normalized and cleaned raw data into a consistent schema (e.g., stripping currency symbols, converting numbers, handling missing values).[web:45]
-- Added simple duplicate detection so the same listing is not stored repeatedly.[web:45]
-- Exported the resulting dataset to CSV/SQLite for further analysis in notebooks or other tools.[web:45][web:46]
+- Built the PDF builder workflow to turn selected property data into a clean, printable report.
+- Connected scraped listing fields (price, address, features, images) into a PDF template.
+- Added basic layout and formatting controls so PDFs are readable for agents and clients.
 
 ---
 
 ## What I Learned
 
-- How to inspect page structure (HTML + network tab) and design selectors that survive minor layout changes.[web:46]
-- The importance of defensive scraping: handling missing fields, timeouts, and unexpected responses instead of crashing.[web:45]
-- Basic data-cleaning patterns for real estate (price normalization, area/bedroom parsing, handling inconsistent text).[web:45]
-- How even a simple dataset unlocks useful questions about a market once it is in a structured format.[web:45][web:46]
-
+- How to go from raw scraped data to a user-facing artifact (PDF) that is useful in real estate conversations.
+- Practical tradeoffs in PDF layout: balancing detail vs. readability on a single page or short report.
+  
 ---
 
 ## How to Run
