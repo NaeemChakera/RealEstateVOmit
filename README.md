@@ -1,6 +1,6 @@
 # RealEstateVOmit
 
-RealEstateVOmit is a real estate data scraping and exploration project focused on collecting property listings and turning them into structured, analyzable datasets.[web:46] It serves as a learning playground for web scraping, cleaning messy HTML, and turning data into usable artifacts like printable PDF reports.[web:45]
+RealEstateVOmit is a real estate data scraping and exploration project focused on collecting property listings and turning them into structured, analyzable datasets.[web:46] It serves as a learning playground for web scraping, cleaning messy HTML, and turning data into usable artifacts like printable PDF reports.
 
 ---
 
@@ -8,7 +8,7 @@ RealEstateVOmit is a real estate data scraping and exploration project focused o
 
 The current version of the app is live at:
 
-👉 [https://revom.vercel.app/](https://revom.vercel.app/)[web:44]
+[https://revom.vercel.app/](https://revom.vercel.app/)
 
 ---
 
