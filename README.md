@@ -8,7 +8,7 @@ RealEstateVOmit is a real estate data scraping and exploration project focused o
 
 The current version of the app is live at:
 
-👉 https://revom.vercel.app/
+https://revom.vercel.app/
 
 ---
 
