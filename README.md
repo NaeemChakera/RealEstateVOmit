@@ -78,11 +78,13 @@ The current version of the app is live at:
 
 1. **Clone the repository**
 
+```
 git clone https://github.com/NaeemChakera/RealEstateVOmit.git
 cd RealEstateVOmit
+```
 
 2. **Create and activate a virtual environment** (optional but recommended)
-
+```
 python -m venv .venv
 
 macOS / Linux
@@ -90,19 +92,19 @@ source .venv/bin/activate
 
 Windows
 .venv\Scripts\activate
-
+```
 3. **Install dependencies**
-
+```
 pip install -r requirements.txt
-
+```
 4. **Configure settings**
 
 Update configuration values (target URL, search parameters, output paths, PDF settings) in the config file or at the top of the main script.
 
 5. **Run the scraper**
-
+```
 python main.py
-
+```
 6. **Generate or view PDFs**
 
 - Use the app flow or script entry point for PDF generation (for example, a CLI flag or separate script like `python build_pdf.py`).  
